@@ -7,13 +7,14 @@ function Index() {
   return (
     <section className='mx-auto mt-8 max-w-6xl'>
       <div className='bg-[#0A2640]'>
-        <div className='flex text-white px-3 lg:ml-20 items-center font-serif text-xl lg:text-3xl'>
-          <h1 className='mt-12'>An enterprise template to ramp <br />up your company website.</h1>
+        <div className='flex text-white px-3 lg:ml-20 items-center font-serif text-xl lg:text-3xl sm:mx-4'>
+          <h1 className='mt-12 ml-4'>An enterprise template to ramp <br />up your company website.</h1>
         </div>
         <div className='lg:px-8 xl:px-16 mt-10'>
-          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
-            <div className='w-full mb-4 bg-slate-100 text-black rounded-2xl p-6'>
-              <p className='text-sm md:text-base'>
+  <div className='px-6'> 
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <div className='w-full mb-4 bg-slate-100 text-black rounded-2xl p-6'>
+      <p className='text-sm md:text-base'>
                 "Buyer buzzer partner network disruptive disclosure agreement business"
               </p>
               <div className='flex justify-end items-center mt-6'>
@@ -24,35 +25,37 @@ function Index() {
                 />
                 <p className='ml-2 text-sm font-serif'>Albus Dumbledore</p>
               </div>
-            </div>
-            <div className='w-full mb-4 bg-slate-100 text-black rounded-2xl p-6'>
-              <p className='text-sm md:text-base'>
+      </div>
+      <div className='w-full mb-4 bg-slate-100 text-black rounded-2xl p-6'>
+      <p className='text-sm md:text-base'>
                 "Buyer buzzer partner network disruptive disclosure agreement business"
               </p>
               <div className='flex justify-end items-center mt-6'>
                 <img
                   className='w-10 h-10 rounded-full'
                   src={random1}
-                  alt='Severus Snape'
+                  alt='Albus Dumbledore'
                 />
-                <p className='ml-2 text-sm font-serif'>Severus Snape</p>
+                <p className='ml-2 text-sm font-serif'>Albus Dumbledore</p>
               </div>
-            </div>
-            <div className='w-full mb-4 bg-slate-100 text-black rounded-2xl p-6'>
-              <p className='text-sm md:text-base'>
+      </div>
+             <div className='w-full mb-8 bg-slate-100 text-black rounded-2xl p-6'>
+                <p className='text-sm md:text-base'>
                 "Buyer buzzer partner network disruptive disclosure agreement business"
-              </p>
+                 </p>
               <div className='flex justify-end items-center mt-6'>
                 <img
                   className='w-10 h-10 rounded-full'
-                  src={random2}
-                  alt='Harry Potter'
+                  src={random}
+                  alt='Albus Dumbledore'
                 />
-                <p className='ml-2 text-sm font-serif'>Harry Potter</p>
+                <p className='ml-2 text-sm font-serif'>Albus Dumbledore</p>
               </div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   );

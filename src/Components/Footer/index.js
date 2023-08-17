@@ -5,8 +5,8 @@ function Index() {
   return (
     <section className='mx-auto mt-8 max-w-6xl bg-slate-100'>
       <div className='p-4 md:p-10 lg:p-20'>
-        <div className='lg:ml-4 md:ml-20 mt-0 text-center lg:text-left'>
-          <img src={logos} alt='Logos' />
+        <div className='flex justify-center md:justify-start'>
+          <img src={logos} alt='Logos' className='md:ml-20 mt-0 text-center lg:text-left' />
         </div>
         <h1 className='text-center md:text-left mt-6 md:mt-12'>
           Social media validation<br />
@@ -14,9 +14,9 @@ function Index() {
           user interface launch party<br />
           creative Facebook iPad Twitter.
         </h1>
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 md:mt-12'>
+        <div className='flex flex-row md:flex-row justify-between mt-6 md:mt-12'>
           <div className='text-center md:text-left'>
-            <h1 className='font-semibold mt-4 md:mt-8'>Company</h1>
+            <h1 className='font-semibold mt-8 md:mt-8'>Company</h1>
             <h1 className='mt-2'>Home</h1>
             <h1 className='mt-2'>Careers</h1>
             <h1 className='mt-2'>Services</h1>
@@ -34,7 +34,6 @@ function Index() {
             <h1 className='mt-2'>Services</h1>
           </div>
         </div>
-    
       </div>
     </section>
   );

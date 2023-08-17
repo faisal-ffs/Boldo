@@ -6,7 +6,7 @@ import hand from "../../images/handshake.png";
 function Index() {
   return (
     <section className="mx-auto mt-8 max-w-6xl bg-slate-50">
-      <div className="bg-[#0A2640]">
+      <div className="bg-[#0A2640] w-full">
         <div className="flex text-white justify-center items-center font-sans">
           <h1 className="mt-12 text-xl md:text-2xl lg:text-3xl">
             Our Services
