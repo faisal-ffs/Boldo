@@ -6,7 +6,7 @@ function Index() {
     <section className='mx-auto mt-8 max-w-6xl bg-slate-100'>
       <div className='p-4 md:p-10 lg:p-20'>
         <div className='flex justify-center md:justify-start'>
-          <img src={logos} alt='Logos' className='md:ml-20 mt-0 text-center lg:text-left' />
+          <img src={logos} alt='Logos' className='text-center md:text-left mt-6 md:mt-12' />
         </div>
         <h1 className='text-center md:text-left mt-6 md:mt-12'>
           Social media validation<br />
