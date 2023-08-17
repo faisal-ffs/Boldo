@@ -17,8 +17,8 @@ function Index() {
           <div className='flex text-black justify-center mt-4 md:mt-8 items-center font-thin md:text-3xl'>
             <h1>Thoughts and words.</h1>
           </div>
-          <div className='mt-12 md:mt-20 ml-4 md:ml-12 flex flex-col md:flex-row'>
-            <img src={whg} alt='Blog Image' className='md:w-1/2' />
+          <div className='mt-12 md:mt-20 m-4 md:ml-12 flex flex-col md:flex-row'>
+            <img src={whg} alt='Blog Image' className='md:w-1/2 '  />
             <div className='mt-4 md:mt-0 md:ml-8'>
               <h2 className='text-xl md:text-3xl text-gray-800 font-serif'>
                 Pitch termsheet backing <br />Validation focus release.

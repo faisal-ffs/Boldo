@@ -11,6 +11,7 @@ function Index() {
           <h1>Value proposition accelerator <br />project management venture.</h1>
         </div>
         <div className='mt-8 mx-auto w-32 md:w-64 h-0.5 bg-slate-100'></div>
+      <div className='r mr-20'>
         <div className='pb-12'>
           <div className='flex flex-col md:flex-col ml-20'>
             <div className='text-white text-center md:text-left mt-8 md:mt-20 md:w-1/2'>
@@ -30,7 +31,9 @@ function Index() {
             </div>
           </div>
         </div>
+        </div>
       </div>
+
     </section>
   );
 }

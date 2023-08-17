@@ -10,6 +10,10 @@ function Index() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <section className='mx-auto mt-8 max-w-6xl pb-8 '>
       <div className="w-full">
@@ -37,28 +41,27 @@ function Index() {
                 <Link
                   to="/blog"
                   className="text-gray-800 hover:bg-gray-300 rounded-3xl hover:text-black-900 hover:font-bold py-1 px-2 md:mx-2"
+                  onClick={closeMenu} 
                 >
                   Blog
                 </Link>
                 <a
                   href="#"
                   className="text-gray-800 hover:bg-gray-300 rounded-3xl hover:text-black-900 hover:font-bold py-1 px-2 md:mx-2"
+                  onClick={closeMenu} 
                 >
                   Services
                 </a>
                 <Link
                   to="/about"
                   className="text-gray-800 hover:bg-gray-300 rounded-3xl hover:text-black-900 hover:font-bold py-1 px-2 md:mx-2"
+                  onClick={closeMenu} 
                 >
                   About
                 </Link>
-                {/* <div
-                // className={`md:w-28 md:h-8 w-12 h-6 border-solid border-2 border-blue-900  font-bold text-black-600 text-xs cursor-pointer rounded-2xl md:ml-4 mt-2 md:static flex items-center justify-center`}
-                // className={`md:w-28 md:h-8 w-12 h-6 border-solid border-2 border-blue-900  font-bold text-black-600 text-xs cursor-pointer rounded-2xl md:ml-4 mt-2 md:static inline px-1.5`}
-                > */}
+                
                 <button className="sm:inline py-2 px-4 border-solid border-2 border-blue-900  font-bold text-black-600 text-xs cursor-pointer rounded md:ml-4 mt-2 md:static">Log In</button>
-                {/* <span className="sm:hidden md:inline md:w-28 md:h-8 w-12 h-6 border-solid border-2 border-blue-900  font-bold text-black-600 text-xs cursor-pointer rounded-2xl md:ml-4 mt-2 md:static flex items-center justify-center">Log In </span> */}
-                {/* </div> */}
+                
               </div>
             </div>
           </div>

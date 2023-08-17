@@ -8,11 +8,9 @@ function Index() {
         <div className='flex justify-center md:justify-start'>
           <img src={logos} alt='Logos' className='text-center md:text-left mt-6 md:mt-12' />
         </div>
-        <h1 className='text-center md:text-left mt-6 md:mt-12'>
-          Social media validation<br />
-          business models canvas graphical<br />
-          user interface launch party<br />
-          creative Facebook iPad Twitter.
+        <h1 className='text-center md:text-left mt-6 md:mt-12  '>
+          Social media validation business models canvas graphical user interface launch party
+          creative Facebook iPad Twitter.Funding handshake buyer business-to-business metrics i-pas partnership. First mover advantage innovator success deployment non-disclosure
         </h1>
         <div className='flex flex-row md:flex-row justify-between mt-6 md:mt-12'>
           <div className='text-center md:text-left'>
